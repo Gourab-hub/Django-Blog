@@ -1,0 +1,11 @@
+  <nav>
+    <div class="nav-wrapper #9c27b0 purple" >
+      {% comment %} <a href="/" class="brand-logo">Myblog</a> {% endcomment %}
+      <a href="{% url 'home'  %}" class="brand-logo">Myblog</a>
+      <ul id="nav-mobile" class="right ">
+        {% comment %} <li><a href="/about">About</a></li> {% endcomment %}
+      <li><a href="{% url 'about'  %}">About</a></li>
+        
+      </ul>
+    </div>
+  </nav>

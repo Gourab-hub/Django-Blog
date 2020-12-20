@@ -1,0 +1,14 @@
+.card {
+    background: #73AD21;
+    max-width: 40%;
+    justify-content: center;
+    height: 20px;
+}
+
+.w3-round {
+    height: auto;
+}
+
+h5 {
+    text-align: center;
+}
